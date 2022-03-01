@@ -1,0 +1,174 @@
+body {
+    background: lightslategray;
+
+}
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40%;
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    border: solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 {
+    height: 100px;
+    width: 100px;
+    border: solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3 {
+    height: 100px;
+    width: 100px;
+    border: solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 3em;
+    
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.btn {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 2px solid black;
+    background-color: red;
+}
+
+.container-banner{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container-resultado {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.3em;
+}
+
+.banner-meia-vitoria {
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    text-align: center;
+    font-size: 2em;
+    top: 7%;
+    background-color: #07b8f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.botao-banner {
+    height: 50px;
+}
+
+.banner-vitoria {
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    text-align: center;
+    font-size: 2em;
+    top: 7%;
+    color: tomato;
+    background: rgb(36,11,0);
+    background: linear-gradient(132deg, rgba(36,11,0,1) 0%, rgba(118,121,9,1) 46%, rgba(255,248,0,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.botao-banner-vitoria {
+    height: 50px;
+}
+
+
+#none {
+    display: none;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5%;
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    border: solid 2px blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 {
+    height: 100px;
+    width: 100px;
+    border: solid 2px red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 {
+    height: 100px;
+    width: 100px;
+    border: solid 2px green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.btn {
+    width: 100px;
+    
+}
+
+.banner-meia-vitoria {
+    width: 420px;
+}
+
+.banner-vitoria {
+    width: 420px;
+}
+
+}

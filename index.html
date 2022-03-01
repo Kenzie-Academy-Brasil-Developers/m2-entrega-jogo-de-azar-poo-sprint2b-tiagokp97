@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
+
 <body>
-  <!-- Escreva seu código aqui -->
+  <header>
+    <h1>Kenzie-níqueis</h1>
+  </header>
+
+  <div class="container">
+
+    <div class="box1 cores">
+      <p id="numero1">1</p>
+    </div>
+
+
+    <div class="box2 cores">
+      <p id="numero2">2</p>
+    </div>
+
+    <div class="box3 cores">
+      <p id="numero3">3</p>
+    </div>
+
+  </div>
+
+
+  <div class="container-btn">
+    <button class="btn">jogar</button>
+  </div>
+
+  <div class="container-banner">
+    <div class="banner-meia-vitoria" id="none">Ganhou
+      <div class="container-resultado">
+      <span class="resultado1"></span>
+      <span class="resultado2"></span>
+      <span class="resultado3"></span>
+    </div>
+      <button class="botao-banner">Jogar novamente</button>
+    </div>
+
+    <div class="banner-vitoria" id="none">Super Prêmio!!
+      <div class="container-resultado">
+        <span class="resultado"></span>
+
+      </div>
+      <button class="botao-banner-vitoria">Jogar novamente</button>
+    </div>
+  </div>
+
+  <script type='module' src="script.js"></script>
 </body>
+
 </html>
